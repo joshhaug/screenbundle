@@ -1,3 +1,0 @@
-## Version 311
-
-[FIXED] Added compatibility for PrinceXML 6.0.
