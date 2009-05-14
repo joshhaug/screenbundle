@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>command</key>
+			<string>moveToBeginningOfLineAndModifySelection:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>uppercaseWord:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>moveRight:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<string>:</string>
+			<key>command</key>
+			<string>insertText:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<dict>
+				<key>commands</key>
+				<array>
+					<dict>
+						<key>command</key>
+						<string>moveToBeginningOfLineAndModifySelection:</string>
+					</dict>
+					<dict>
+						<key>command</key>
+						<string>uppercaseWord:</string>
+					</dict>
+					<dict>
+						<key>command</key>
+						<string>moveToEndOfLine:</string>
+					</dict>
+					<dict>
+						<key>command</key>
+						<string>insertNewlineIgnoringFieldEditor:</string>
+					</dict>
+					<dict>
+						<key>command</key>
+						<string>insertNewlineIgnoringFieldEditor:</string>
+					</dict>
+				</array>
+			</dict>
+			<key>command</key>
+			<string>playMacroWithOptions:</string>
+		</dict>
+	</array>
+	<key>keyEquivalent</key>
+	<string>:</string>
+	<key>name</key>
+	<string>Left Transition</string>
+	<key>scope</key>
+	<string>text.screenplay constant.primer.transition.left.colon</string>
+	<key>uuid</key>
+	<string>C56CE0B3-49B9-4330-AF50-77E4113FE160</string>
+</dict>
+</plist>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Style: Underline</string>
+	<key>scope</key>
+	<string>text.screenplay string markup.underline</string>
+	<key>settings</key>
+	<dict>
+		<key>fontStyle</key>
+		<string>underline</string>
+	</dict>
+	<key>uuid</key>
+	<string>251BAE81-80C6-4025-9017-8346A136FADD</string>
+</dict>
+</plist>

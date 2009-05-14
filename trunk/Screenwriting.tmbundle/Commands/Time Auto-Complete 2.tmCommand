@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+
+require ENV['TM_SUPPORT_PATH'] + '/lib/ui.rb'
+
+choices = [['day'], ['night'], ['afternoon'], ['morning'], ['evening'], ['later'], ['moments later'], ['continuous'], ['the next day']]
+
+# Options
+options = {:case_insensitive =&gt; true}
+
+# Display the completion popup.
+TextMate::UI.complete(choices, options)
+
+# Debug
+#p choices</string>
+	<key>fallbackInput</key>
+	<string>line</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string></string>
+	<key>name</key>
+	<string>Time Auto-Complete 2</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>scope</key>
+	<string>text.screenplay keyword.slugline.full time eol</string>
+	<key>uuid</key>
+	<string>8A55DDFB-EC61-492A-9F89-EF51C1BF2B00</string>
+</dict>
+</plist>

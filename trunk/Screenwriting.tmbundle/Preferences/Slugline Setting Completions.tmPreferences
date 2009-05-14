@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Slugline Setting Completions</string>
+	<key>scope</key>
+	<string>text.screenplay meta.primer.slugline</string>
+	<key>settings</key>
+	<dict>
+		<key>completions</key>
+		<array>
+			<string>int. </string>
+			<string>ext. </string>
+			<string>est. </string>
+			<string>i/e. </string>
+		</array>
+		<key>disableDefaultCompletion</key>
+		<integer>1</integer>
+	</dict>
+	<key>uuid</key>
+	<string>87A2D779-2118-40A7-8DBD-BE276C8F25EA</string>
+</dict>
+</plist>
