@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>argument</key>
+			<dict>
+				<key>action</key>
+				<string>findPrevious</string>
+				<key>findInProjectIgnoreCase</key>
+				<true/>
+				<key>findInProjectRegularExpression</key>
+				<false/>
+				<key>findString</key>
+				<string>(?&lt;=\t{2})(?=[^\t]+)</string>
+				<key>ignoreCase</key>
+				<true/>
+				<key>regularExpression</key>
+				<true/>
+				<key>replaceAllScope</key>
+				<string>document</string>
+				<key>wrapAround</key>
+				<true/>
+			</dict>
+			<key>command</key>
+			<string>findWithOptions:</string>
+		</dict>
+	</array>
+	<key>keyEquivalent</key>
+	<string>^a</string>
+	<key>name</key>
+	<string>Jump to beginning of Dialogue</string>
+	<key>scope</key>
+	<string>text.screenplay string.dialogue</string>
+	<key>uuid</key>
+	<string>F934BEEC-0B04-4CDC-A8F7-395AB33451F6</string>
+</dict>
+</plist>

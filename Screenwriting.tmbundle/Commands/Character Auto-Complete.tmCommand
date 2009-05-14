@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+
+require ENV['TM_SUPPORT_PATH'] + '/lib/ui.rb'
+
+# Gets rid of anything left in stdout so we have a clean slate
+STDOUT.flush
+
+# Uses the TextMate command's defined input and reads it to a string, then makes it all lowercase, and scans it for a regexp pattern, passing the results into an array
+choices = STDIN.read.downcase.scan(/^\t{4}([^\t\n\(]{4,})/).uniq.sort
+
+# Options
+options = {:extra_chars =&gt; ' ', :case_insensitive =&gt; true, :initial_filter =&gt; ENV['TM_CURRENT_WORD']}
+
+# Display the completion popup.
+TextMate::UI.complete(choices, options)
+
+# Turn this on if you want to see the results of the parse.
+p choices</string>
+	<key>fallbackInput</key>
+	<string>document</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string></string>
+	<key>name</key>
+	<string>Character Auto-Complete</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>scope</key>
+	<string>text.screenplay character eol</string>
+	<key>uuid</key>
+	<string>6E84B33D-A548-477A-A48A-07C1317E9483</string>
+</dict>
+</plist>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+
+require ENV['TM_SUPPORT_PATH'] + '/lib/ui.rb'
+
+# Gets rid of anything left in stdout so we have a clean slate
+STDOUT.flush
+
+# Uses the TextMate command's defined input and reads it to a string, then makes it all lowercase, and scans it for a regexp pattern, passing the results into an array
+choices = STDIN.read.downcase.scan(/^(?i:int\/ext|int|ext|i\/e)\s*[,\.-]?\s+(?:([^,\.\-\n]+?)\s*(?:[,\.\-])\s+)(?:([^,\.\-\n]+?)\s*(?:[,\.\-])\s+)?(?:([^,\.\-\n]+?)\s*(?:[,\.\-])\s+)?/).flatten.compact.uniq.sort.map { |a| [a] }
+
+# Options
+options = {:extra_chars =&gt; " '", :case_insensitive =&gt; true, :initial_filter =&gt; ENV['TM_CURRENT_WORD']}
+
+# Display the completion popup.
+TextMate::UI.complete(choices, options)
+
+# Debug
+# p choices</string>
+	<key>fallbackInput</key>
+	<string>document</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string></string>
+	<key>name</key>
+	<string>Location Auto-Complete</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>scope</key>
+	<string>text.screenplay location eol</string>
+	<key>uuid</key>
+	<string>4F8B4F4C-A075-4D77-916A-E5663A899FAE</string>
+</dict>
+</plist>
