@@ -9,13 +9,13 @@
 
 Markdown.pl &lt;&lt;"EOF"|SmartyPants.pl
 
-More info... &lt;http://screenbundle.googlecode.com&gt;
+Project hosted at: &lt;http://screenbundle.googlecode.com&gt;
 
 # Screenwriting bundle Change Log
 
 ## Version 314
 
-* [CHANGED] Enhanced time of day completions. These are now automatically presented when tabbing from the location. Follows Final Draft's behaviour.
+* [CHANGED] Enhanced time of day completions. These are now automatically presented when tabbing from the location. Follows Final Draft's behavior.
 
 * [FIXED] A problem with using double dashes in comments. (Mostly because Prince freaked out about it).
 
@@ -49,7 +49,7 @@ More info... &lt;http://screenbundle.googlecode.com&gt;
 
 * [CHANGED] the way ScreenBundle codes paragraphs.
 
-	HTML `&lt;br/&gt;` tags are no longer used, instead paragraphs are assigned "white-space:pre-wrap;"  This may not be compatable with old or shitty (IE) web-browsers. Yet another reason to distribute PDF.
+	HTML `&lt;br/&gt;` tags are no longer used, instead paragraphs are assigned "white-space:pre-wrap;"  This may not be compatible with old or shitty (IE) web-browsers. Yet another reason to distribute PDF.
 
 	This feature enables you to hard-wrap and indent your action paragraphs in any way you see fit. TextMate will wrap long lines when needed but retain all your formatting.
 	
@@ -58,6 +58,8 @@ More info... &lt;http://screenbundle.googlecode.com&gt;
 * [FIXED] Inserting newlines at the beginning of a slugline.
 
 	You can now press enter at the beginning of a slugline and the line will move down, as expected, instead of inserting two newlines after the slugline.
+
+------------------------------------------------------------------------------
 
 ## Version 313
 
@@ -81,6 +83,8 @@ More info... &lt;http://screenbundle.googlecode.com&gt;
 
 [CHANGED] Two asterisks = bold, one asterisk = underline. This was done so unprocessed documents look are more readable. Underscores no longer do anything.
 
+------------------------------------------------------------------------------
+
 ## Version 312
 
 [ADDED] Now you can type up to 5 words at the beginning of a line (with no uppercaser letters) then a space and a dash and the line will be recognized as a slugline.
@@ -93,9 +97,13 @@ More info... &lt;http://screenbundle.googlecode.com&gt;
 
 [FIX] Fixed an error in the "character" grammer that didn't recognize a single letter as the beginning of a character name, thus preventing auto-complete.
 
+------------------------------------------------------------------------------
+
 ## Version 311
 
 [FIXED] Added compatibility for PrinceXML 6.0.
+
+------------------------------------------------------------------------------
 
 ## Version 310
 
@@ -127,6 +135,8 @@ More info... &lt;http://screenbundle.googlecode.com&gt;
 
 [ADDED] Variable for Slugline Indent.
 
+------------------------------------------------------------------------------
+
 ## Version 301
 
 [CHANGED] Character auto-complete no longer returns parentheticals (eg. (VO), (O.S.), etc), now it returns just names. This prevents both "Tony" and "Tony (VO)" from being returned in the auto-complete list.
@@ -134,6 +144,8 @@ More info... &lt;http://screenbundle.googlecode.com&gt;
 [CHANGED] Refined bundle scope selectors to avoid conflicts with with other bundles. Should fix broken completion errors in other languages.
 
 [CHANGED] Altered default footer margins for PDF.
+
+------------------------------------------------------------------------------
 
 ## Version 3
 
