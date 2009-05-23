@@ -19,10 +19,10 @@ choices = STDIN.read.downcase.scan(/^(?i:int\.\s|ext\.\s|i\/e|int\/ext)(?:.*)\s?
 options = {:extra_chars =&gt; ' ', :case_insensitive =&gt; true, :initial_filter =&gt; ENV['TM_CURRENT_WORD']}
 
 # Display the completion popup.
-# TextMate::UI.complete(choices, options)
+TextMate::UI.complete(choices, options)
 
 # Debug
-p choices</string>
+#p choices</string>
 	<key>fallbackInput</key>
 	<string>line</string>
 	<key>input</key>
