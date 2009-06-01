@@ -19,7 +19,7 @@ s/^\/\/(.*)(\n|$)//mg;
 } &gt;"$DST.txt"
 
 # open the generated txt file in Final Draft 
-open -a Final\ Draft\ 7 "$DST.txt"</string>
+open -a Final\ Draft "$DST.txt"</string>
 	<key>fallbackInput</key>
 	<string>document</string>
 	<key>input</key>

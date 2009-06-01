@@ -15,6 +15,8 @@ Project hosted at: &lt;http://screenbundle.googlecode.com&gt;
 
 ## Version 314
 
+* [CHANGED] Updated the "open in final draft" command for compatibility with Final Draft 8
+
 * [CHANGED] Enhanced time of day completions. These are now automatically presented when tabbing from the location. Follows Final Draft's behavior.
 
 * [FIXED] A problem with using double dashes in comments. (Mostly because Prince freaked out about it).
