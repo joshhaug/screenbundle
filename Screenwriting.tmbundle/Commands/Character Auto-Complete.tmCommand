@@ -22,7 +22,7 @@ options = {:extra_chars =&gt; ' ', :case_insensitive =&gt; true, :initial_filter
 TextMate::UI.complete(choices, options)
 
 # Turn this on if you want to see the results of the parse.
-p choices</string>
+# p choices</string>
 	<key>fallbackInput</key>
 	<string>document</string>
 	<key>input</key>
