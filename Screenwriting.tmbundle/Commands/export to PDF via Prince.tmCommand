@@ -246,12 +246,12 @@ TAIL
 } &gt;"$DST.html"
 
 # process the file via prince
-# /Applications/Utilities/prince/lib/prince/bin/prince "$DST.html" ~/Desktop/"$BASENAME".pdf
+/Applications/Utilities/prince/lib/prince/bin/prince "$DST.html" ~/Desktop/"$BASENAME".pdf
 
 # experimental...
-/Applications/Utilities/prince/lib/prince/bin/prince "$DST.html" /tmp/"$BASENAME".pdf
+#/Applications/Utilities/prince/lib/prince/bin/prince "$DST.html" /tmp/"$BASENAME".pdf
 
-open /tmp/"$BASENAME".pdf
+open ~/Desktop/"$BASENAME".pdf
 
 # Display a message
 cat &lt;&lt;DONE

@@ -13,16 +13,18 @@ require ENV['TM_SUPPORT_PATH'] + '/lib/ui.rb'
 STDOUT.flush
 
 # Uses the TextMate command's defined input and reads it to a string, then makes it all lowercase, and scans it for a regexp pattern, passing the results into an array
-choices = STDIN.read.downcase.scan(/^\t{4}([^\t\n\(]{4,})/).uniq.sort
+choices = STDIN.read.downcase.scan(/^\t{4}([^\t\n\(]+)(?=\n\t+)/).uniq.sort
+
+# known issue: this totally excludes characters with attached parentheticals, like this: CHARCTER (VO)
 
 # Options
-options = {:extra_chars =&gt; ' ', :case_insensitive =&gt; true, :initial_filter =&gt; ENV['TM_CURRENT_WORD']}
+options = {:extra_chars =&gt; " '", :case_insensitive =&gt; true, :initial_filter =&gt; ENV['TM_CURRENT_WORD']}
 
 # Display the completion popup.
 TextMate::UI.complete(choices, options)
 
 # Turn this on if you want to see the results of the parse.
-# p choices</string>
+#p choices</string>
 	<key>fallbackInput</key>
 	<string>document</string>
 	<key>input</key>

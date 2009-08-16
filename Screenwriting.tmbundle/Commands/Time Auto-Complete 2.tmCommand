@@ -9,7 +9,7 @@
 
 require ENV['TM_SUPPORT_PATH'] + '/lib/ui.rb'
 
-choices = [['day'], ['night'], ['afternoon'], ['morning'], ['evening'], ['later'], ['moments later'], ['continuous'], ['the next day']]
+choices = [['day'], ['night'], ['afternoon'], ['morning'], ['evening'], ['later'], ['moments later'], ['continuous'], ['the next day'], ['dawn'], ['dusk'], ['sunset'], ['sunrise']]
 
 # Options
 options = {:case_insensitive =&gt; true}
