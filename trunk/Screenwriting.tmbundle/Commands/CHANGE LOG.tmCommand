@@ -15,19 +15,21 @@ Project hosted at: &lt;http://screenbundle.googlecode.com&gt;
 
 ## Version 314
 
+* [ADDED] You can now use TextMate's built-in comment shortcuts for both inline and block comments.
+
 * [CHANGED] Updated the "open in final draft" command for compatibility with Final Draft 8
 
-* [CHANGED] Enhanced time of day completions. These are now automatically presented when tabbing from the location. Follows Final Draft's behavior.
+* [CHANGED] Enhanced time of day completions. These are now automatically presented when tabbing from the location. Follows Final Draft's behavior. (and is awesome)
 
-* [FIXED] A problem with using double dashes in comments. (Mostly because Prince freaked out about it).
+* [FIXED] A problem with using double dashes in comments. (Mostly because PrinceXML freaked out about it).
 
-	This was done by wrapping comments in a hidden paragraph, rather than using HTML comments.
+	This was done by wrapping comments in a hidden paragraph, rather than using HTML comments. Which is better anyway because you can now have printing comments by just editing the CSS and not the code.
 
 * [CHANGED] Character, Location, and Time auto-complete now uses TextMate's "DIALOG 2" for completions.
 
 	This provides a as-you-type popup, and is a vastly improved auto-complete system over all.
 
-* [ADDED] The variable `SPLAY_FONT` can now be used to customize the font of the screenplay. Please note that Prince can only use TrueType fonts.
+* [ADDED] The variable `SPLAY_FONT` can now be used to customize the font of the screenplay. Please note that at this time Prince can only use TrueType fonts.
 
 * [ADDED] Commands for changing the selected text to Character or Dialogue.
 
@@ -43,7 +45,7 @@ Project hosted at: &lt;http://screenbundle.googlecode.com&gt;
 
 * [ADDED] A macro to join the current dialogue line with the next one, disabled by default.
 
-	This is useful if you want to remove a bit of action that splits a speech into two. Just place the insertion point at the end of the first dialogue line and press "control-shit-J" (same shortcut as TextMate's "join with next line" command). It's a little janky, but should mostly work just fine.
+	This is useful if you want to remove a bit of action that splits a speech into two. Just place the insertion point at the end of the first dialogue line and press "control-shit-J" (same shortcut as TextMate's "join with next line" command). It's a little janky, so it's disabled by default.
 
 * [CHANGED] Typing "FADE IN:" at the beginning of a line no longer transforms the line into a right-transition.
 

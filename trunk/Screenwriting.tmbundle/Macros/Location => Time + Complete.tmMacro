@@ -9,8 +9,6 @@
 			<dict>
 				<key>content</key>
 				<string> - $0</string>
-				<key>keyEquivalent</key>
-				<string>	</string>
 				<key>name</key>
 				<string>location → time</string>
 				<key>scope</key>
@@ -31,7 +29,7 @@
 
 require ENV['TM_SUPPORT_PATH'] + '/lib/ui.rb'
 
-choices = [['day'], ['night'], ['afternoon'], ['morning'], ['evening'], ['later'], ['moments later'], ['continuous'], ['the next day']]
+choices = [['day'], ['night'], ['afternoon'], ['morning'], ['evening'], ['later'], ['moments later'], ['continuous'], ['the next day'], ['dawn'], ['dusk'], ['sunset'], ['sunrise']]
 
 # Options
 options = {:case_insensitive =&gt; true}
@@ -45,14 +43,16 @@ TextMate::UI.complete(choices, options)
 				<string>line</string>
 				<key>input</key>
 				<string>document</string>
+				<key>keyEquivalent</key>
+				<string></string>
 				<key>name</key>
-				<string>Time Auto-Complete</string>
+				<string>Time Auto-Complete 2</string>
 				<key>output</key>
 				<string>showAsTooltip</string>
 				<key>scope</key>
 				<string>text.screenplay keyword.slugline.full time eol</string>
 				<key>uuid</key>
-				<string>41234F76-CAD4-4D0E-885C-CCAFFB4C2F5B</string>
+				<string>8A55DDFB-EC61-492A-9F89-EF51C1BF2B00</string>
 			</dict>
 			<key>command</key>
 			<string>executeCommandWithOptions:</string>
@@ -61,10 +61,10 @@ TextMate::UI.complete(choices, options)
 	<key>keyEquivalent</key>
 	<string>	</string>
 	<key>name</key>
-	<string>Location =&gt; Time + Autocomplete</string>
+	<string>Location =&gt; Time + Complete</string>
 	<key>scope</key>
 	<string>text.screenplay keyword.slugline location eol</string>
 	<key>uuid</key>
-	<string>86465EFF-43A4-44C5-BBBB-1B264E2186D3</string>
+	<string>EC883B52-0641-422E-B5BE-3843DF213E56</string>
 </dict>
 </plist>

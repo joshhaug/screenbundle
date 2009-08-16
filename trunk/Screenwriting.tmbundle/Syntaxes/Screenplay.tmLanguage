@@ -211,7 +211,7 @@
 			<key>comment</key>
 			<string>Any line that begins with a slugline leader, a space, then anything, then a space, then a newline or one character and the end of the line.</string>
 			<key>match</key>
-			<string>^((EXT|INT|I/E|int|ext|i/e)\.\s)(.*(\n|.$))?</string>
+			<string>^((int|ext|i/e|int/ext|INT|EXT|I/E|INT/EXT)\.\s)(.*(\n|.$))?</string>
 			<key>name</key>
 			<string>keyword.slugline.short</string>
 		</dict>
