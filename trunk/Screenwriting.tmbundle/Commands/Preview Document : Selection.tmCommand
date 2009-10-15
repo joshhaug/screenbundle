@@ -109,7 +109,7 @@ s/^\/\/(.*)(\n|$)/&lt;div class="comment"&gt;$1 &lt;\/div&gt;/mg;
 s/\*{2}(\S[^\*\n]+\S)\*{2}/&lt;b&gt;$1&lt;\/b&gt;/g;
 
 # Underline
-s/\*(\S[^\*\n]+\S)\*/&lt;u&gt;$1&lt;\/u&gt;/g;
+s/\*(\b[^\*\n]+\b)\*/&lt;u&gt;$1&lt;\/u&gt;/g;
 
 # Italics
 s/\[(\S[^\]\n]+\S)\]/&lt;i&gt;$1&lt;\/i&gt;/g;

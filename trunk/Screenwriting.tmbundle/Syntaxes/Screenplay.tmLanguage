@@ -479,7 +479,7 @@
 					<key>comment</key>
 					<string>anything between double asterisks</string>
 					<key>match</key>
-					<string>\*\S[^\*]*\S\*</string>
+					<string>\*\b[^\*]*\b\*</string>
 					<key>name</key>
 					<string>markup.underline.screenplay</string>
 				</dict>
