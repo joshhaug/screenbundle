@@ -15,6 +15,8 @@ Project hosted at: &lt;http://screenbundle.googlecode.com&gt;
 
 ## Version 314
 
+* [FIXED] You can now underline single characters.
+
 * [ADDED] You can now use TextMate's built-in comment shortcuts for both inline and block comments.
 
 * [CHANGED] Updated the "open in final draft" command for compatibility with Final Draft 8
