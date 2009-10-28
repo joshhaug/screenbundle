@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Style: Italic</string>
 	<key>scope</key>
-	<string>text.screenplay string.parenthetical parenthetical</string>
+	<string>text.screenplay string.parenthetical parenthetical, meta.separator.fold</string>
 	<key>settings</key>
 	<dict>
 		<key>fontStyle</key>

@@ -10,9 +10,9 @@
 	<key>firstLineMatch</key>
 	<string>^//\s?(S|s)creenplay.*</string>
 	<key>foldingStartMarker</key>
-	<string>^\/\/\s(?i:start)\:\s.+</string>
+	<string>^\/\/\s§</string>
 	<key>foldingStopMarker</key>
-	<string>^\/\/\s(?i:end)\:\s.+</string>
+	<string>^\/\/\s?[=-]{50,60}</string>
 	<key>keyEquivalent</key>
 	<string>^~S</string>
 	<key>name</key>
@@ -66,6 +66,12 @@
 			<string>^\t{2}(\n|$)</string>
 			<key>name</key>
 			<string>meta.blank.dialogue</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^\/\/\s?[=-]{50,60}\n?|^\/\/\s§.*\n?</string>
+			<key>name</key>
+			<string>meta.separator.fold</string>
 		</dict>
 		<dict>
 			<key>begin</key>
