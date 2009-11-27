@@ -39,7 +39,6 @@
 		<key>excludedItems</key>
 		<array>
 			<string>E2A7C9E1-7275-4DDD-997C-DDCC86AD9A17</string>
-			<string>301695BC-2691-47E2-A096-34D103F11EFD</string>
 			<string>DEB9E4A7-8A00-47CF-86C3-8E4E3AA91BF9</string>
 			<string>C06F868A-D788-4A1B-8DE6-8DC08CD75D11</string>
 			<string>CA316D69-DD89-48E1-B20D-994FDBF2FF5E</string>
@@ -51,7 +50,6 @@
 			<string>C24B9A57-1754-4203-945C-86137BA37754</string>
 			<string>F934BEEC-0B04-4CDC-A8F7-395AB33451F6</string>
 			<string>637C674C-1CD2-4708-8999-1775F28B3823</string>
-			<string>5055DCD5-59D8-4800-9359-D5FCD9E83C62</string>
 			<string>9CB19E82-E92D-4FD9-9226-5E7D62BCDFEF</string>
 			<string>77C17234-DF98-47C2-9729-235C9A42A872</string>
 			<string>A7E98254-CC87-4BF3-A929-7FDF7AC6BEF3</string>
@@ -70,8 +68,11 @@
 			<string>AC373983-3E38-4865-9C66-C07E129E7775</string>
 			<string>CBA1A486-D967-4304-A60B-1CD0AE8A12E4</string>
 			<string>D71BE4C7-5F63-4EC0-B86B-075CCD86D64F</string>
-			<string>9A671C1F-9187-41DF-ACE2-2E920032845A</string>
 			<string>C56CE0B3-49B9-4330-AF50-77E4113FE160</string>
+			<string>EC883B52-0641-422E-B5BE-3843DF213E56</string>
+			<string>D02DEAA4-7404-4329-B6E2-A2C46DF94FF1</string>
+			<string>83E6C688-0CE7-4D0A-9C26-C7FDAB23077F</string>
+			<string>7D18BB9D-F071-4626-B3DF-6C271582EDF7</string>
 		</array>
 		<key>items</key>
 		<array>
@@ -88,10 +89,6 @@
 			<string>15A651E3-E5B0-4E5B-B67D-6A157D0BCE43</string>
 			<string>------------------------------------</string>
 			<string>82B3568C-98D9-425A-B4AF-99A4D44F9F4D</string>
-			<string>83E6C688-0CE7-4D0A-9C26-C7FDAB23077F</string>
-			<string>7D18BB9D-F071-4626-B3DF-6C271582EDF7</string>
-			<string>4E8F6BBA-87AB-41B2-B8D5-3BB2762FC6C8</string>
-			<string>42F959A7-1C8B-4B40-97C8-321E7E896F31</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -100,8 +97,9 @@
 				<key>items</key>
 				<array>
 					<string>41234F76-CAD4-4D0E-885C-CCAFFB4C2F5B</string>
-					<string>6DC91D56-D70A-4440-BDE3-FCD34D73E9F2</string>
-					<string>542A6F58-ECD4-4BE3-8512-9F689574E1C9</string>
+					<string>8A55DDFB-EC61-492A-9F89-EF51C1BF2B00</string>
+					<string>6E84B33D-A548-477A-A48A-07C1317E9483</string>
+					<string>4F8B4F4C-A075-4D77-916A-E5663A899FAE</string>
 				</array>
 				<key>name</key>
 				<string>Auto Complete</string>
@@ -113,7 +111,6 @@
 					<string>DC336430-D2DB-4638-8850-6ADAF7DB2385</string>
 					<string>577887FA-3EC6-4B10-B9C6-D5C9217A60B4</string>
 					<string>780515B9-8E06-48D3-BAE0-7EAF3C948DF9</string>
-					<string>6E68AA6B-51CB-4421-8969-F44A9582308A</string>
 					<string>8D768A5A-F5F0-4CEC-B5D5-0B6767AAA987</string>
 				</array>
 				<key>name</key>
@@ -192,17 +189,14 @@
 		<string>63641EF3-F656-472A-9C3D-DAAFE938126C</string>
 		<string>83E6C688-0CE7-4D0A-9C26-C7FDAB23077F</string>
 		<string>7D18BB9D-F071-4626-B3DF-6C271582EDF7</string>
-		<string>09705B93-E3E4-4FAF-98CD-564AD253B482</string>
 		<string>DC336430-D2DB-4638-8850-6ADAF7DB2385</string>
 		<string>577887FA-3EC6-4B10-B9C6-D5C9217A60B4</string>
 		<string>780515B9-8E06-48D3-BAE0-7EAF3C948DF9</string>
-		<string>6E68AA6B-51CB-4421-8969-F44A9582308A</string>
 		<string>82B3568C-98D9-425A-B4AF-99A4D44F9F4D</string>
 		<string>D02DEAA4-7404-4329-B6E2-A2C46DF94FF1</string>
 		<string>8D768A5A-F5F0-4CEC-B5D5-0B6767AAA987</string>
 		<string>16B564A5-ACC6-4416-8B87-5B2BACC6E167</string>
 		<string>7A65A3FD-2087-4E4B-833C-C0338E0FC264</string>
-		<string>9A671C1F-9187-41DF-ACE2-2E920032845A</string>
 		<string>E9D9F46E-6D44-4B49-BC3A-2176D98AFDB4</string>
 		<string>EC883B52-0641-422E-B5BE-3843DF213E56</string>
 		<string>804B14DB-02EF-4E1E-9D62-26A6C16D6EC9</string>
@@ -231,9 +225,6 @@
 		<string>80493EA4-3C1B-4836-8E48-5BF3DE1E736B</string>
 		<string>C24B9A57-1754-4203-945C-86137BA37754</string>
 		<string>F934BEEC-0B04-4CDC-A8F7-395AB33451F6</string>
-		<string>4E8F6BBA-87AB-41B2-B8D5-3BB2762FC6C8</string>
-		<string>42F959A7-1C8B-4B40-97C8-321E7E896F31</string>
-		<string>5055DCD5-59D8-4800-9359-D5FCD9E83C62</string>
 	</array>
 	<key>uuid</key>
 	<string>6737A710-7207-49AC-8248-1BE2C7952F15</string>
