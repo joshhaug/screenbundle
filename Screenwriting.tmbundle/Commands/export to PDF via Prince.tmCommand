@@ -36,6 +36,7 @@ cat &lt;&lt;HEAD
 		div#screenplay {
 			counter-reset: page 1;
 			page: screenplay;
+			prince-page-group: start;
 		}
 		@page screenplay {
 			/* Page Numbers */
